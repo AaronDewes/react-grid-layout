@@ -1,6 +1,6 @@
 .DELETE_ON_ERROR:
 
-export BIN := $(shell npm bin)
+export BIN := $(shell yarn bin)
 PATH := $(BIN):$(PATH)
 DIST = ./dist
 BUILD = ./build
@@ -23,7 +23,7 @@ dev:
 
 # Allows usage of `make install`, `make link`
 install link:
-	@npm $@
+	@yarn $@
 
 # Build browser module
 dist/%.min.js: $(LIB) $(BIN)
@@ -68,7 +68,7 @@ release-major: build lint test
 
 publish:
 	git push --tags origin HEAD:master
-	npm publish
+	yarn publish
 
 define release
 	VERSION=`node -pe "require('./package.json').version"` && \
