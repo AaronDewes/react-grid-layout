@@ -1,7 +1,7 @@
 {
-  "name": "react-wrapped-grid-layout",
+  "name": "react-updated-grid-layout",
   "version": "1.2.0",
-  "description": "A fork of react-grid-layout, a draggable and resizable grid layout with responsive breakpoints for React. This introducs a few additional options and up-to-date dependencies",
+  "description": "A fork of react-grid-layout, a draggable and resizable grid layout with responsive breakpoints for React. This updates all dependencies of the original project.",
   "main": "index.js",
   "scripts": {
     "lint": "make lint",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:AaronDewes/react-wrapped-grid-layout.git"
+    "url": "git@github.com:AaronDewes/react-updated-grid-layout.git"
   },
   "keywords": [
     "react",
@@ -31,15 +31,15 @@
   "author": "Aaron Dewes <aaron.dewes@web.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AaronDewes/react-wrapped-grid-layout/issues"
+    "url": "https://github.com/AaronDewes/react-updated-grid-layout/issues"
   },
-  "homepage": "https://github.com/AaronDewes/react-wrapped-grid-layout",
+  "homepage": "https://github.com/AaronDewes/react-updated-grid-layout",
   "dependencies": {
     "classnames": "2.x",
     "lodash.isequal": "^4.5.0",
     "prop-types": "^15.7.2",
     "react-draggable": "^4.4.3",
-    "react-resizable": "^1.11.0"
+    "react-resizable-updated": "^1.11.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
@@ -57,7 +57,7 @@
     "css-loader": "^5.0.1",
     "ejs": "^3.1.5",
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
     "enzyme-to-json": "^3.6.1",
     "eslint": "^7.18.0",
     "eslint-plugin-flowtype": "^5.2.0",
@@ -80,7 +80,7 @@
     "timsort": "^0.3.0",
     "webpack": "^5.17.0",
     "webpack-cli": "^4.4.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^4.0.0-beta.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"

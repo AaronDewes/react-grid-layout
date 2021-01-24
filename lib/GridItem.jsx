@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 import { DraggableCore } from "react-draggable";
-import { Resizable } from "react-resizable";
+import { Resizable } from "react-resizable-updated";
 import { fastPositionEqual, perc, setTopLeft, setTransform } from "./utils";
 import {
   calcGridItemPosition,
